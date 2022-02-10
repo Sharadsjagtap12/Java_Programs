@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class AreaCircle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int a;
+double b, pi=3.14;
+Scanner s= new Scanner(System.in);
+System.out.println("Enter Radius of Circle in cm:");
+a= s.nextInt();
+b= (pi*a*a);
+System.out.println("Area of Circle in square cm is:"+b);
+	}
+
+}
